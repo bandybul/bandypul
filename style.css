@@ -1,0 +1,162 @@
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #263343;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecec84;
+    padding:8px 12px;
+}
+
+
+
+.navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    font-size: 1em;
+
+}
+
+.navbar_menu li {
+        padding: 8px 12px;
+
+}
+
+
+.navbar_logo2 {
+    list-style: none;
+    display: flex;
+    padding: 8px 12px;
+   }
+
+   .navbar_logo3 {
+    list-style: none;
+    display: flex;
+    padding: 5px 5px;
+    justify-content:center;
+      }
+
+
+.navbar_menu li:hover {
+   background-color: #a4a9d8;
+   border-radius: 4px;
+
+}
+
+.navbar_icons {
+    list-style: none;
+    color: #263343;;
+    display: flex;
+    }
+
+.navbar_icons li{
+    padding: 8px 12px;
+}
+
+.navbar_toogleBtn {
+    position: absolute;
+    right: 32px;
+    font-size: 1.2em;
+    color: #d49466;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+        
+    }
+    .navbar_menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar_menu li {
+        width: 100%;
+        text-align: center;
+    }
+    .naver_logo2 {
+        align-items: flex-end;
+    }
+    
+}
+
+.c1_title {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecec84;
+    padding: 8px 12px;
+    }
+
+.title2 {
+    display: flex;
+    list-style: none;
+    color: grey;
+    font-size: 1em;
+    padding: 5px 5px;
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #e4e9de;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.menu1_title {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1em;
+    text-align: center;
+    color: rgb(63, 60, 60);
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+
+.course1 li{
+    display: flex;
+    list-style: none;
+    font-size: 1em;
+    width: 100%;
+    padding: 5px 5px  10px 5px;
+   }
+
+
+.course1 li:hover {
+    list-style: none;
+    background-color: #a4a9d8;
+    border-radius: 4px;
+  }
+
+.player {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: black;
+}
+.player video{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+}
