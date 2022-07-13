@@ -15,7 +15,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ecec84;
+    background-color: #b4c4e8;
     padding:8px 12px;
 }
 
@@ -50,7 +50,7 @@ a {
 
 
 .navbar_menu li:hover {
-   background-color: #a4a9d8;
+   background-color: #d5f828;
    border-radius: 4px;
 
 }
@@ -100,7 +100,7 @@ a {
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    background-color: #ecec84;
+    background-color: #b4c4e8;
     padding: 8px 12px;
     }
 
@@ -117,7 +117,7 @@ a {
     flex-direction: column;
     list-style: none;
     background-color: #e4e9de;
-    align-items: center;
+    align-items:center;
     padding: 5px 5px 5px 5px;
 }
 
@@ -145,7 +145,7 @@ a {
 
 .course1 li:hover {
     list-style: none;
-    background-color: #a4a9d8;
+    background-color: #d5f828;
     border-radius: 4px;
   }
 
